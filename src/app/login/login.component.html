@@ -1,0 +1,17 @@
+<h1 style="text-align: center;">Página de Login </h1>
+<router-outlet></router-outlet>
+<div> 
+  <div style="text-align: center;">
+    <label for="usuario">Digite seu usuário </label>
+    <input [(ngModel)]="inputusuario" type="text" id="usuario" placeholder="Usuário" >
+    <br>
+    <br>
+    <label for="senha">Digite sua senha </label>
+    <input  [(ngModel)]="inputsenha"  type="text" id="senha" placeholder="Senha">
+    <br>
+    <br>
+    <button type="submit" name="action" (click)="fazerLogin()" >Entrar</button>
+  </div>
+</div>
+
+
